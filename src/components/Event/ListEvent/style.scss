@@ -1,0 +1,7 @@
+.list-event {
+  display: grid;
+  grid-auto-flow: row;
+  .list-event--container {
+    border-bottom: 1px solid var(--color-background-3);
+  }
+}

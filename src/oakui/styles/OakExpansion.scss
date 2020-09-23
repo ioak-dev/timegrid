@@ -1,0 +1,12 @@
+.expansion-section {
+  // background-color: var(--color-background-2);
+  border-radius: 4px;
+  .header {
+    cursor: pointer;
+    user-select: none;
+  }
+  .container {
+    overflow-y: hidden;
+    transition: max-height 250ms ease-in-out;
+  }
+}
